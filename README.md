@@ -1,5 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #222;
+      color: white;
+      font-family: Arial;
+    }
+
+    .videoButton {
+      background-color: #ff0000;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .videoButton:hover {
+      background-color: #cc0000;
+    }
+  </style>
 </head>
 <body>
-  <h1>Haii My Nigga!</h1>
+
+  <h2>Watch My Favorite Video</h2>
+  <button class="videoButton" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';">
+    ▶ Watch Video
+  </button>
+
 </body>
 </html>
